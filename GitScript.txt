@@ -16,4 +16,10 @@ $ git remote -v
       origin  git@github.com:private-repo.git (fetch)
       origin  git@github.com:private-repo.git (push)
 
+## Adding a file
+~$ git add <fn>
+~$ git commit -m "description" <path/fn>
+
+
+
 ~$git config --list
