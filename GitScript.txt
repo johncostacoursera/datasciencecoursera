@@ -4,10 +4,10 @@
 ~$ mkdir projectname
 ~$ cd projectname
 ~$ git init
-~$ touch file1
-~$ git add file1
-~$ git commit -m 'first commit'
-~$ git remote -v
+~$ touch file1 (Create a file)
+~$ git add file1 (adds file to local repo)
+~$ git commit -m 'first commit' (commits file to local repo)
+~$ git remote -v (verifies file for remote repo)
       origin  https://github.com/private-repo.git (fetch)
       origin  https://github.com/private-repo.git (push)
 $ git remote rm origin
@@ -19,7 +19,8 @@ $ git remote -v
 ## Adding a file
 ~$ git add <fn>
 ~$ git commit -m "description" <path/fn>
+$ git remote add origin git@github.com:private-repo.git (adds remote repo)
+~$ git push origin master (commits all files to remote repo)
 
 
-
-~$git config --list
+~$git config --list (list settings)
